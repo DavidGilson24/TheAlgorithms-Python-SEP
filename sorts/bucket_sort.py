@@ -19,8 +19,20 @@ import math
 
 DEFAULT_BUCKET_SIZE = 5
 
+coverage = {
+    "bucketSort1": False,
+    "bucketSort2": False,
+    "bucketSort3": False,
+    "bucketSort4": False,
+    "bucketSort5": False,
+    "bucketSort6": False,
+    "bucketSort7": False,
+    "bucketSort8": False,
+}
+
 def bucketSort(myList, bucketSize=DEFAULT_BUCKET_SIZE):
     if(len(myList) == 0):
+        coverage["bucketSort1"] = True
         print('You don\'t have any elements in array!')
 
     minValue = myList[0]
@@ -28,30 +40,49 @@ def bucketSort(myList, bucketSize=DEFAULT_BUCKET_SIZE):
 
     # For finding minimum and maximum values
     for i in range(0, len(myList)):
+        coverage["bucketSort2"] = True
         if myList[i] < minValue:
+            coverage["bucketSort3"] = True
             minValue = myList[i]
         elif myList[i] > maxValue:
+            coverage["bucketSort4"] = True
             maxValue = myList[i]
 
     # Initialize buckets
     bucketCount = math.floor((maxValue - minValue) / bucketSize) + 1
     buckets = []
     for i in range(0, bucketCount):
+        coverage["bucketSort5"] = True
         buckets.append([])
 
     # For putting values in buckets
     for i in range(0, len(myList)):
+        coverage["bucketSort6"] = True
         buckets[math.floor((myList[i] - minValue) / bucketSize)].append(myList[i])
 
     # Sort buckets and place back into input array
     sortedArray = []
     for i in range(0, len(buckets)):
+        coverage["bucketSort7"] = True
         insertion_sort(buckets[i])
         for j in range(0, len(buckets[i])):
+            coverage["bucketSort8"] = True
             sortedArray.append(buckets[i][j])
 
     return sortedArray
 
+def printCoverage():
+    totalBranches = len(coverage)
+    executedBranches = sum(1 for hit in coverage.values() if hit)
+    coveragePercentage = (executedBranches / totalBranches) * 100
+
+    for branch, hit in coverage.items():
+        print(f"{branch} was {'hit' if hit else 'not hit'}")
+
+    print(f"Branch coverage: {coveragePercentage:.2f}%")
+
+
 if __name__ == '__main__':
     sortedArray = bucketSort([12, 23, 4, 5, 3, 2, 12, 81, 56, 95])
     print(sortedArray)
+    printCoverage()

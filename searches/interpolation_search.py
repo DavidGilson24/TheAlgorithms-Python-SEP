@@ -8,6 +8,14 @@ try:
 except NameError:
     raw_input = input  # Python 3
 
+coverage = {
+    "interpolationSearch1": False,
+    "interpolationSearch2": False,
+    "interpolationSearch3": False,
+    "interpolationSearch4": False,
+    "interpolationSearch5": False,
+    "interpolationSearch6": False,
+}
 
 def interpolation_search(sorted_collection, item):
     """Pure implementation of interpolation search algorithm in Python
@@ -21,22 +29,26 @@ def interpolation_search(sorted_collection, item):
     right = len(sorted_collection) - 1
 
     while left <= right:
+        coverage["interpolationSearch1"] = True
         point = left + ((item - sorted_collection[left]) * (right - left)) // (sorted_collection[right] - sorted_collection[left])
         
         #out of range check
         if point<0 or point>=len(sorted_collection):
+            coverage["interpolationSearch2"] = True
             return None
 
         current_item = sorted_collection[point]
         if current_item == item:
+            coverage["interpolationSearch3"] = True
             return point
         else:
             if item < current_item:
+                coverage["interpolationSearch4"] = True
                 right = point - 1
             else:
+                coverage["interpolationSearch5"] = True
                 left = point + 1
     return None
-
 
 def interpolation_search_by_recursion(sorted_collection, item, left, right):
 
@@ -78,6 +90,15 @@ def __assert_sorted(collection):
         raise ValueError('Collection must be sorted')
     return True
 
+def printCoverage():
+    totalBranches = len(coverage)
+    executedBranches = sum(1 for hit in coverage.values() if hit)
+    coveragePercentage = (executedBranches / totalBranches) * 100
+
+    for branch, hit in coverage.items():
+        print(f"{branch} was {'hit' if hit else 'not hit'}")
+
+    print(f"Branch coverage: {coveragePercentage:.2f}%")
 
 if __name__ == '__main__':
     import sys
@@ -96,3 +117,5 @@ if __name__ == '__main__':
         print('{} found at positions: {}'.format(target, result))
     else:
         print('Not found')
+
+    printCoverage()
