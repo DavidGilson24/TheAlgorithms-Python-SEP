@@ -109,6 +109,26 @@ The coverage goes straight to 96% as it had no previous tests covering it. So by
 
 The coverage goes straight to 97% as it had no previous tests covering it. So by creating tests covering each branch of the is_full_binary function, we could already cover 97% of it without needing to enchance anything, just making new tests.
 
+## Melisa Damian
+
+### test_binary_search.py
+
+#### Before adding new tests
+
+![image](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/122413865/ec7fbbcb-db4b-4090-ad0c-e056290dc480)
+
+#### After adding new tests
+
+![image](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/122413865/148a8ab5-8131-4b45-87af-043553eeda97)
+
+The coverage for the whole file is 41% due to the fact that there are multiple functions within it, and I have improved the coverage only for one of them. Furthermore, the code doesn't have any tests to cover for those missing it. Below I will provide a screenshot of the coverage html with my binary_search function.
+
+![image](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/122413865/cfff06f7-b4b5-47a6-a145-7d368a6d98b3)
+
+### test_bucket_sort.py
+
+
+
 ### Overall
 
 <Provide a screenshot of the old coverage results by running an existing tool (the same as you already showed above)>
