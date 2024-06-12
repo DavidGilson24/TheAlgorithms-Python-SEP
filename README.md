@@ -1,4 +1,4 @@
-# Report for Assignment 1
+<img width="588" alt="Screenshot 2024-06-12 16384" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/100478140/9169da23-8ca6-42ac-84f6-b21a4f2bb66e"># Report for Assignment 1
 
 ## Project chosen
 
@@ -54,39 +54,56 @@ How to:
 
 ## Coverage improvement
 
--- NOT DONE YET
+#### David Gilson
 
-<!-- ### Individual tests
+depth_of_tree:
 
-<The following is supposed to be repeated for each group member>
+[Link to commit for coverge instrumntation](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/240092b8891d198672c52f480112a9585ed9d539)
+<img width="212" alt="Screenshot 2024-06-12 161958" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/100478140/727555bb-f4b8-4ec2-a297-efb0a3a27ac5">
 
-<Group member name>
+is_full_binary_tree:
 
-<Test 1>
+[Link to commit for coverge instrumntation](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/240092b8891d198672c52f480112a9585ed9d539)
+<img width="212" alt="Screenshot 2024-06-12 161958" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/100478140/727555bb-f4b8-4ec2-a297-efb0a3a27ac5">)
 
-<Show a patch (diff) or a link to a commit made in your forked repository that shows the new/enhanced test>
+### Individual tests
 
-<Provide a screenshot of the old coverage results (the same as you already showed above)>
+#### David Gilson
 
-<Provide a screenshot of the new coverage results>
+test_tree_depth.py:
 
-<State the coverage improvement with a number and elaborate on why the coverage is improved>
+[Link to a commit the new test tree depth tests](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/5b66c6d74806727dd03a2c02ecab1f7ce34542ed#diff-719efa461e1601f23bd2d6082e80548bef79e2b6e54f709f36f704c4ab3ca06a)
 
-<Test 2>
+#### Before adding new tests
 
-<Provide the same kind of information provided for Test 1>
+<img width="641" alt="Screenshot 2024-06-12 163654" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/100478140/76930bf9-0b6b-489f-b5b7-9fa51ad466be">
+
+#### After adding new tests
+
+<img width="588" alt="Screenshot 2024-06-12 16384" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/100478140/56ceb796-6619-44fc-a663-0494d09cf512">
+
+The coverage goes straight to 96% as it had no previous tests covering it. So by creating tests covering each branch of the depth_of_tree function, we could already cover 96% of it without needing to enchance anything, just makign new tests.
+
+test_full_binary:
+
+[Link to a commit the new test tree depth tests](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/5b66c6d74806727dd03a2c02ecab1f7ce34542ed#diff-61905f78e6f4c80d20903383f6e052ce4cc481462c99b605d278a1334276a8b1)
+
+#### Before adding new tests
+
+<img width="588" alt="Screenshot 2024-06-12 16384" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/100478140/56ceb796-6619-44fc-a663-0494d09cf512">
+
+#### After adding new tests
+
+<img width="840" alt="Screenshot 2024-06-12 165137" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/100478140/b8344f1a-ecde-4d76-941c-ca0c3bc497bc">
 
 ### Overall
 
 <Provide a screenshot of the old coverage results by running an existing tool (the same as you already showed above)>
 
 <Provide a screenshot of the new coverage results by running the existing tool using all test modifications made by the group>
+-->
 
 ## Statement of individual contributions
-
-<Write what each group member did>
-
--->
 
 
 Install Instructions
