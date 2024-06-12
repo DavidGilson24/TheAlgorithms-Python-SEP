@@ -113,6 +113,8 @@ The coverage goes straight to 97% as it had no previous tests covering it. So by
 
 ### test_binary_search.py
 
+[Link to the commit](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/932fe9bad41abeb4a31228306a9f7a6c746640ca)
+
 #### Before adding new tests
 
 ![image](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/122413865/ec7fbbcb-db4b-4090-ad0c-e056290dc480)
@@ -121,13 +123,29 @@ The coverage goes straight to 97% as it had no previous tests covering it. So by
 
 ![image](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/122413865/148a8ab5-8131-4b45-87af-043553eeda97)
 
-The coverage for the whole file is 41% due to the fact that there are multiple functions within it, and I have improved the coverage only for one of them. Furthermore, the code doesn't have any tests to cover for those missing it. Below I will provide a screenshot of the coverage html with my binary_search function.
+The overall coverage for the project went lower because there are functions inside of the binary_search.py file which are not being covered by any other tests than mine. The coverage for the whole binary_search.py file is 41% due to the fact that there are multiple functions within it, and I have improved the coverage only for one of them. Furthermore, the code doesn't have any tests to cover for those missing it. Below I will provide a screenshot of the coverage html with my binary_search function.
 
 ![image](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/122413865/cfff06f7-b4b5-47a6-a145-7d368a6d98b3)
 
 ### test_bucket_sort.py
 
+[Link to the commit](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/70b6cabcb4743dcbd0853b7376fab4e0b49cc475)
 
+#### Before adding new tests
+
+![image](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/122413865/cfff06f7-b4b5-47a6-a145-7d368a6d98b3)
+
+#### After adding new tests
+
+![Screenshot 2024-06-12 222703](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/122413865/a37f0963-9bfb-4e40-a11d-fe012502abd9)
+
+![image](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/122413865/1276aa48-2faa-4095-ab30-1d349ad4382a)
+
+Here, the overall coverage for the project increases due to the fact that within bucket_sort.py, the only function in it is bucket_sort, which is 95% covered by the tests I've added. It's 95% because it lacks the case for an empty list, which doesn't work (mentioned above why).
+
+
+
+The coverage 
 
 ### Overall
 
