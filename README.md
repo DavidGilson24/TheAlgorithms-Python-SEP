@@ -96,12 +96,11 @@ The coverage goes straight to 97% as it had no previous tests covering it. So by
 
 ## Melisa Damian
 
-### bucket_search.py
+### binary_search.py
 
-Due to the fact that my function is doing bucket search on non-empty lists, all the other branches will be
-![Screenshot 2024-06-12 173039](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/122413865/bf57f6d3-3e50-4fce-9ad6-e15b5fe4cde9)
-
-[Link to a commit to the coverage instrumentation measurements](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/dfdfd2e6187a52363a0248c038e43712f87a9cab?diff=unified&w=0)
+[Link to the commit with coverage measurement](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/932fe9bad41abeb4a31228306a9f7a6c746640ca)
+[Edited the print_coverage later on](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/85fb6e61eaeb5a554d2d6e6940bb43db2a8794af)
+[Screenshot of the coverage measurement]
 
 ### Overall
 
