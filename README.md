@@ -96,9 +96,10 @@ The coverage goes straight to 97% as it had no previous tests covering it. So by
 
 ## Melisa Damian
 
-# interpolation_search.py
+### bucket_search.py
 
-![Screenshot 2024-06-12 171522](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/122413865/f273c54e-2698-4010-ba98-846ec2005fa3)
+Due to the fact that my function is doing bucket search on non-empty lists, all the other branches will be
+![Screenshot 2024-06-12 173039](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/122413865/bf57f6d3-3e50-4fce-9ad6-e15b5fe4cde9)
 
 [Link to a commit to the coverage instrumentation measurements](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/dfdfd2e6187a52363a0248c038e43712f87a9cab?diff=unified&w=0)
 
