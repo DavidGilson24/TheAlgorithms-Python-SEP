@@ -50,7 +50,7 @@ How to:
 
 ## Coverage measurement with our own "tool"
 
-#### David Gilson
+## David Gilson
 
 ### depth_of_tree:
 
@@ -63,8 +63,6 @@ How to:
 <img width="212" alt="Screenshot 2024-06-12 161958" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/100478140/727555bb-f4b8-4ec2-a297-efb0a3a27ac5">)
 
 ## Coverage improvement
-
-### Individual tests
 
 ## David Gilson
 
@@ -80,7 +78,7 @@ How to:
 
 <img width="588" alt="Screenshot 2024-06-12 16384" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/100478140/56ceb796-6619-44fc-a663-0494d09cf512">
 
-The coverage goes straight to 96% as it had no previous tests covering it. So by creating tests covering each branch of the depth_of_tree function, we could already cover 96% of it without needing to enchance anything, just makign new tests.
+The coverage goes straight to 96% as it had no previous tests covering it. So by creating tests covering each branch of the depth_of_tree function, we could already cover 96% of it without needing to enchance anything, just making new tests.
 
 ### test_full_binary:
 
@@ -93,6 +91,8 @@ The coverage goes straight to 96% as it had no previous tests covering it. So by
 #### After adding new tests
 
 <img width="840" alt="Screenshot 2024-06-12 165137" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/100478140/b8344f1a-ecde-4d76-941c-ca0c3bc497bc">
+
+The coverage goes straight to 97% as it had no previous tests covering it. So by creating tests covering each branch of the depth_of_tree function, we could already cover 97% of it without needing to enchance anything, just making new tests.
 
 ### Overall
 
