@@ -1,4 +1,4 @@
-<img width="588" alt="Screenshot 2024-06-12 16384" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/100478140/9169da23-8ca6-42ac-84f6-b21a4f2bb66e"># Report for Assignment 1
+# Report for Assignment 1
 
 ## Project chosen
 
