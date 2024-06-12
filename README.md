@@ -62,6 +62,21 @@ How to:
 [Link to commit for coverage instrumentation](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/240092b8891d198672c52f480112a9585ed9d539)
 <img width="212" alt="Screenshot 2024-06-12 161958" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/100478140/727555bb-f4b8-4ec2-a297-efb0a3a27ac5">)
 
+## Melisa Damian
+
+### binary_search.py
+
+[Link to the commit with coverage measurement](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/932fe9bad41abeb4a31228306a9f7a6c746640ca)
+[Edited the print_coverage later on](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/85fb6e61eaeb5a554d2d6e6940bb43db2a8794af)
+[Screenshot of the coverage measurement]![Screenshot 2024-06-12 211542](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/122413865/91f6fb9a-0715-4a1b-bb63-20d624ce4c17)
+
+### bucket_sort.py
+
+[Link to the commit with coverage measurement](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/dfdfd2e6187a52363a0248c038e43712f87a9cab)
+[Screenshot of the coverage measurement]![Screenshot 2024-06-12 212839](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/122413865/9da69e31-2c0f-44f8-aead-9160ab7e1f94)
+
+For bucket sort, the coverage should be the same for all lists except for the empty one, because all the possible inputs trigger all the branches except for the one checking for an empty list. Due to an error whenever I am attempting to input an empty list which could be fixed only by editing the code of the authors of this repo, I am unable to present that one in the screenshot.
+
 ## Coverage improvement
 
 ## David Gilson
@@ -93,14 +108,6 @@ The coverage goes straight to 96% as it had no previous tests covering it. So by
 <img width="840" alt="Screenshot 2024-06-12 165137" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/100478140/b8344f1a-ecde-4d76-941c-ca0c3bc497bc">
 
 The coverage goes straight to 97% as it had no previous tests covering it. So by creating tests covering each branch of the is_full_binary function, we could already cover 97% of it without needing to enchance anything, just making new tests.
-
-## Melisa Damian
-
-### binary_search.py
-
-[Link to the commit with coverage measurement](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/932fe9bad41abeb4a31228306a9f7a6c746640ca)
-[Edited the print_coverage later on](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/85fb6e61eaeb5a554d2d6e6940bb43db2a8794af)
-[Screenshot of the coverage measurement]
 
 ### Overall
 
