@@ -94,6 +94,14 @@ The coverage goes straight to 96% as it had no previous tests covering it. So by
 
 The coverage goes straight to 97% as it had no previous tests covering it. So by creating tests covering each branch of the is_full_binary function, we could already cover 97% of it without needing to enchance anything, just making new tests.
 
+## Melisa Damian
+
+# interpolation_search.py
+
+![Screenshot 2024-06-12 171522](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/122413865/f273c54e-2698-4010-ba98-846ec2005fa3)
+
+[Link to a commit to the coverage instrumentation measurements](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/dfdfd2e6187a52363a0248c038e43712f87a9cab?diff=unified&w=0)
+
 ### Overall
 
 <Provide a screenshot of the old coverage results by running an existing tool (the same as you already showed above)>
