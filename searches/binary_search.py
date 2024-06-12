@@ -153,14 +153,8 @@ def __assert_sorted(collection):
     return True
 
 def printCoverage():
-    total_branches = len(coverage)
-    executed_branches = sum(1 for hit in coverage.values() if hit)
-    coverage_percentage = (executed_branches / total_branches) * 100
-
     for branch, hit in coverage.items():
         print(f"{branch} was {'hit' if hit else 'not hit'}")
-
-    print(f"Branch coverage: {coverage_percentage:.2f}%")
 
 if __name__ == '__main__':
     import sys
