@@ -66,9 +66,9 @@ How to:
 
 ### Individual tests
 
-#### David Gilson
+## David Gilson
 
-test_tree_depth.py:
+### test_tree_depth.py:
 
 [Link to a commit the new test tree depth tests](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/5b66c6d74806727dd03a2c02ecab1f7ce34542ed#diff-719efa461e1601f23bd2d6082e80548bef79e2b6e54f709f36f704c4ab3ca06a)
 
@@ -82,7 +82,7 @@ test_tree_depth.py:
 
 The coverage goes straight to 96% as it had no previous tests covering it. So by creating tests covering each branch of the depth_of_tree function, we could already cover 96% of it without needing to enchance anything, just makign new tests.
 
-test_full_binary:
+### test_full_binary:
 
 [Link to a commit the new test tree depth tests](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/5b66c6d74806727dd03a2c02ecab1f7ce34542ed#diff-61905f78e6f4c80d20903383f6e052ce4cc481462c99b605d278a1334276a8b1)
 
