@@ -92,7 +92,7 @@ The coverage goes straight to 96% as it had no previous tests covering it. So by
 
 <img width="840" alt="Screenshot 2024-06-12 165137" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/100478140/b8344f1a-ecde-4d76-941c-ca0c3bc497bc">
 
-The coverage goes straight to 97% as it had no previous tests covering it. So by creating tests covering each branch of the depth_of_tree function, we could already cover 97% of it without needing to enchance anything, just making new tests.
+The coverage goes straight to 97% as it had no previous tests covering it. So by creating tests covering each branch of the is_full_binary function, we could already cover 97% of it without needing to enchance anything, just making new tests.
 
 ### Overall
 
