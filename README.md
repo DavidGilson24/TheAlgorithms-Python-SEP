@@ -50,21 +50,19 @@ How to:
 
 ## Coverage measurement with our own "tool"
 
--- NOT DONE YET
-
-## Coverage improvement
-
 #### David Gilson
 
 depth_of_tree:
 
-[Link to commit for coverge instrumntation](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/240092b8891d198672c52f480112a9585ed9d539)
+[Link to commit for coverage instrumentation](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/240092b8891d198672c52f480112a9585ed9d539)
 <img width="212" alt="Screenshot 2024-06-12 161958" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/100478140/727555bb-f4b8-4ec2-a297-efb0a3a27ac5">
 
 is_full_binary_tree:
 
-[Link to commit for coverge instrumntation](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/240092b8891d198672c52f480112a9585ed9d539)
+[Link to commit for coverage instrumentation](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/240092b8891d198672c52f480112a9585ed9d539)
 <img width="212" alt="Screenshot 2024-06-12 161958" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/100478140/727555bb-f4b8-4ec2-a297-efb0a3a27ac5">)
+
+## Coverage improvement
 
 ### Individual tests
 
