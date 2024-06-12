@@ -17,6 +17,12 @@ try:
 except NameError:
     raw_input = input  # Python 3
 
+coverage = {
+    "binarySearchWhile": False,  # Entered the while loop
+    "binarySearchIf1": False,  # Current item is equal to the search item
+    "binarySearchElseIf": False,  # Search item is less than the current item
+    "binarySearchElse": False,  # Search item is greater than the current item
+}
 
 def binary_search(sorted_collection, item):
     """Pure implementation of binary search algorithm in Python
@@ -45,14 +51,18 @@ def binary_search(sorted_collection, item):
     right = len(sorted_collection) - 1
 
     while left <= right:
+        coverage["binarySearchWhile"] = True
         midpoint = (left + right) // 2
         current_item = sorted_collection[midpoint]
         if current_item == item:
+            coverage["binarySearchIf1"] = True
             return midpoint
         else:
             if item < current_item:
+                coverage["binarySearchElseIf"] = True
                 right = midpoint - 1
             else:
+                coverage["binarySearchElse"] = True
                 left = midpoint + 1
     return None
 
@@ -142,6 +152,15 @@ def __assert_sorted(collection):
         raise ValueError('Collection must be sorted')
     return True
 
+def printCoverage():
+    total_branches = len(coverage)
+    executed_branches = sum(1 for hit in coverage.values() if hit)
+    coverage_percentage = (executed_branches / total_branches) * 100
+
+    for branch, hit in coverage.items():
+        print(f"{branch} was {'hit' if hit else 'not hit'}")
+
+    print(f"Branch coverage: {coverage_percentage:.2f}%")
 
 if __name__ == '__main__':
     import sys
@@ -159,3 +178,5 @@ if __name__ == '__main__':
         print('{} found at positions: {}'.format(target, result))
     else:
         print('Not found')
+
+    printCoverage()

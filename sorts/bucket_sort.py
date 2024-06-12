@@ -88,18 +88,22 @@ if __name__ == '__main__':
     
     print('more solutions:')
 
-    print('Test 2 single bucket:')
+    print('Test 1 single bucket:')
     sortedArray = bucketSort([9, 7, 5, 3])
+    print(sortedArray)
     printCoverage()
 
-    print('Test 3 multiple buckets:')
+    print('Test 2 multiple buckets:')
     sortedArray = bucketSort([15, 23, 4, 8, 3, 2, 17, 11, 6, 19])
+    print(sortedArray)
     printCoverage()
 
-    print('Test 4 same numbers:')
+    print('Test 3 same numbers:')
     sortedArray = bucketSort([2, 2, 2, 2])
+    print(sortedArray)
     printCoverage()
 
-    print('Test 5 already sorted:')
+    print('Test 4 already sorted:')
     sortedArray = bucketSort([1, 3, 5, 7, 9])
+    print(sortedArray)
     printCoverage()
