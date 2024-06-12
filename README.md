@@ -133,7 +133,7 @@ The overall coverage for the project went lower because there are functions insi
 
 #### Before adding new tests
 
-![image](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/122413865/cfff06f7-b4b5-47a6-a145-7d368a6d98b3)
+![image](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/122413865/148a8ab5-8131-4b45-87af-043553eeda97)
 
 #### After adding new tests
 
