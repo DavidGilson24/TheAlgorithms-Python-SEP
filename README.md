@@ -77,6 +77,22 @@ How to:
 
 For bucket sort, the coverage should be the same for all lists except for the empty one, because all the possible inputs trigger all the branches except for the one checking for an empty list. Due to an error whenever I am attempting to input an empty list which could be fixed only by editing the code of the authors of this repo, I am unable to present that one in the screenshot.
 
+## Ashwin Iyer
+
+### gnome_sort.py
+
+[[Link to the commit for gnome_sort.py]](https://github.com/subbarayudu-j/TheAlgorithms-Python/commit/8ed09f1fcd70fa8b963f7cb404f5d9895a9c4752)
+[[Added more coverage]](https://github.com/subbarayudu-j/TheAlgorithms-Python/commit/89e412c5ec74b226e7860d20f62660edb1300378)
+
+<img width="896" alt="Screenshot 2024-06-13 at 10 46 54 AM" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/122367043/e45730d4-3209-43c9-8252-74652cc5c672">
+
+### jump_search.py
+
+[[Link to the commit for jump_search.py]](https://github.com/subbarayudu-j/TheAlgorithms-Python/commit/cfe65cc219e8d35dfedb4d461b7e8dcf45c6a205)
+
+<img width="883" alt="Screenshot 2024-06-13 at 10 50 32 AM" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/122367043/1368b437-3713-4c8c-8611-0772bb89d9c6">
+
+
 ## Coverage improvement
 
 ## David Gilson
