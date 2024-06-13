@@ -2,7 +2,9 @@ from __future__ import print_function
 branch_coverage = {
     "gnome_sort_1": False,  
     "gnome_sort_2": False,  
-    "gnome_sort_3": False, 
+    "gnome_sort_3": False,
+    "gnome_sort_4": False,
+    "gnome_sort_5": False 
 }
 
 def gnome_sort(unsorted):
@@ -16,14 +18,16 @@ def gnome_sort(unsorted):
     i = 1
     
     while i < len(unsorted):
+        branch_coverage["gnome_sort_2"] = True
         if unsorted[i-1] <= unsorted[i]:
-            branch_coverage["gnome_sort_2"] = True
+            branch_coverage["gnome_sort_3"] = True
             i += 1
         else:
-            branch_coverage["gnome_sort_3"] = True
+            branch_coverage["gnome_sort_4"] = True
             unsorted[i-1], unsorted[i] = unsorted[i], unsorted[i-1]
             i -= 1
             if (i == 0):
+                branch_coverage["gnome_sort_5"] = True
                 i = 1
 
 def printCoverage():
