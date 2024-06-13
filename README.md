@@ -97,13 +97,11 @@ For bucket sort, the coverage should be the same for all lists except for the em
 ### bubble_sort.py
 
 [Link to the commit with coverage measurement](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/6c45f9b2ecca196f925d3fcb92c86e76da962174)
-[Screenshot of the coverage measurement]
 <img width="673" alt="SCR-20240613-pkhb" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/63929969/06b0c829-6301-4cc9-b8fc-434486bd4a1c">
 
 ### merge_sort.py
 
 [Link to the commit with coverage measurement](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/25ec6ff795751ce0758ac8b4e893a93b36b5c091)
-[Screenshot of the coverage measurement]
 <img width="662" alt="SCR-20240613-ppho" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/63929969/13030114-6b4d-416c-aff9-ea411f0ebf50">
 
 ## Coverage improvement
