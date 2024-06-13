@@ -159,9 +159,34 @@ The overall coverage for the project went lower because there are functions insi
 
 Here, the overall coverage for the project increases due to the fact that within bucket_sort.py, the only function in it is bucket_sort, which is 95% covered by the tests I've added. It's 95% because it lacks the case for an empty list, which doesn't work (mentioned above why).
 
+## Ashwin Iyer
+
+### jump_search.py
+
+[Link to the commit](https://github.com/subbarayudu-j/TheAlgorithms-Python/commit/a0ddef9ae294524891426c4e8994c32ad9ac9c8d)
+
+#### Before adding new tests
+<img width="811" alt="Screenshot 2024-06-13 at 1 19 04 PM" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/122367043/bf717089-bd53-4fb0-a23e-28352de6c0b9">
 
 
-The coverage 
+#### After adding new tests
+<img width="758" alt="Screenshot 2024-06-13 at 1 19 23 PM" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/122367043/d7bdbe61-8e6c-486e-b633-d81ae52324e1">
+
+There were no previous tests for jump_search, and therefore the coverage is at 94% for test_jump_search.py. As we can see, the overall coverage has increased from 92% to 93%.
+This has been achieved by creating tests for each branch of the jump_sort function.
+
+### gnome_sort.py
+
+[Link to the commit](https://github.com/subbarayudu-j/TheAlgorithms-Python/commit/c8aac39aacfcca1fe3a682b5a7cc400346ef0886)
+
+#### Before adding new tests
+<img width="758" alt="Screenshot 2024-06-13 at 1 19 23 PM" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/122367043/a0bb3591-7a14-4b64-9b74-29426e77ff58">
+
+#### After adding new tests
+<img width="556" alt="Screenshot 2024-06-13 at 3 02 20 PM" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/122367043/c30ef11d-c878-4122-ac73-c7864707e964">
+
+There were no previous tests for gnome_sort and hence, the coverage for test_gnome_sort.py is 97%. As we can observe, the overall coverage has jumped from 93% to 94%. This has been achieved by creating tests for each branch of the gnome_sort function.
+
 
 ### Overall
 
