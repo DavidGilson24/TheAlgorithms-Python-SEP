@@ -92,6 +92,19 @@ For bucket sort, the coverage should be the same for all lists except for the em
 
 <img width="883" alt="Screenshot 2024-06-13 at 10 50 32 AM" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/122367043/1368b437-3713-4c8c-8611-0772bb89d9c6">
 
+## Patrick Darie
+
+### bubble_sort.py
+
+[Link to the commit with coverage measurement](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/6c45f9b2ecca196f925d3fcb92c86e76da962174)
+[Screenshot of the coverage measurement]
+<img width="673" alt="SCR-20240613-pkhb" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/63929969/06b0c829-6301-4cc9-b8fc-434486bd4a1c">
+
+### merge_sort.py
+
+[Link to the commit with coverage measurement](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/25ec6ff795751ce0758ac8b4e893a93b36b5c091)
+[Screenshot of the coverage measurement]
+<img width="662" alt="SCR-20240613-ppho" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/63929969/13030114-6b4d-416c-aff9-ea411f0ebf50">
 
 ## Coverage improvement
 
@@ -187,6 +200,33 @@ This has been achieved by creating tests for each branch of the jump_sort functi
 
 There were no previous tests for gnome_sort and hence, the coverage for test_gnome_sort.py is 97%. As we can observe, the overall coverage has jumped from 93% to 94%. This has been achieved by creating tests for each branch of the gnome_sort function.
 
+## Patrick Darie
+
+### bubble_sort.py
+
+[Link to the commit](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/c84343b232ddcc904a9c65478773ecd8be16340b)
+
+#### Before adding new tests
+<img width="1171" alt="before adding bubble" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/63929969/c2f6a24c-973e-4233-bea9-5f7a73446100">
+
+#### After adding new tests
+<img width="1170" alt="after adding bubble" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/63929969/e7ab2f0c-af13-4329-8a1b-104760ebc752">
+
+The overall coverage goes down a bit from 92% to 86% because bubble_sort is also included in the report and it's percentage is 56% because not all the functions are tested in the file bubble_sort.py, just the main function bubble_sort(), as we can see in the html report down below the coverage for the function bubble_sort is at 100%. But we can see the coverage of the function with the test file test_bubble_sort() being at 95% this contributing to the higher overall coverage.
+
+### merge_sort.py
+
+[Link to the commit](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/dd0a3c186f0ceac6bf4e8fccf453ec9bc23de1b4)
+
+#### Before adding new tests
+<img width="1170" alt="after adding bubble" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/63929969/e7ab2f0c-af13-4329-8a1b-104760ebc752">
+
+#### After adding new tests
+<img width="1168" alt="after adding merge" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/63929969/9d67c123-d409-4ccc-aaf5-1dde1e714968">
+
+We can see here the same things happening as with bubble_sort. The overall coverage goes down from 86% to 84% because the coverage report is also considering the merge_sort.py file and all of it's functions, but from the html report we can see that the coverage for merge_sort is at 100%. Adding the test to the coverage improves it, but becuase it considers also the merge_sort.py file the overall coverage is reduced
+
+<img width="978" alt="coverage html" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/63929969/99a2a3cc-c0c6-4f1f-a2ff-bf3abb3e3b27">
 
 ### Overall
 
