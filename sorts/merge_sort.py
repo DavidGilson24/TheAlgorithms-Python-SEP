@@ -1,10 +1,10 @@
-branch_coverage = {
-    "merge_sort_1": False,  
-    "merge_sort_2": False,  
-    "merge_sort_3": False,  
-    "merge_sort_4": False, 
-    "merge_sort_5": False   
-}
+# branch_coverage = {
+#     "merge_sort_1": False,  
+#     "merge_sort_2": False,  
+#     "merge_sort_3": False,  
+#     "merge_sort_4": False, 
+#     "merge_sort_5": False   
+# }
 
 def merge_sort(collection):
     """Pure implementation of the merge sort algorithm in Python
@@ -25,7 +25,7 @@ def merge_sort(collection):
     """
     length = len(collection)
     if length > 1:
-        branch_coverage["merge_sort_1"] = True
+        # branch_coverage["merge_sort_1"] = True
         midpoint = length // 2
         left_half = merge_sort(collection[:midpoint])
         right_half = merge_sort(collection[midpoint:])
@@ -35,9 +35,9 @@ def merge_sort(collection):
         left_length = len(left_half)
         right_length = len(right_half)
         while i < left_length and j < right_length:
-            branch_coverage["merge_sort_2"] = True
+            # branch_coverage["merge_sort_2"] = True
             if left_half[i] < right_half[j]:
-                branch_coverage["merge_sort_3"] = True
+                # branch_coverage["merge_sort_3"] = True
                 collection[k] = left_half[i]
                 i += 1
             else:
@@ -46,28 +46,28 @@ def merge_sort(collection):
             k += 1
 
         while i < left_length:
-            branch_coverage["merge_sort_4"] = True
+            # branch_coverage["merge_sort_4"] = True
             collection[k] = left_half[i]
             i += 1
             k += 1
 
         while j < right_length:
-            branch_coverage["merge_sort_5"] = True
+            # branch_coverage["merge_sort_5"] = True
             collection[k] = right_half[j]
             j += 1
             k += 1
 
     return collection
 
-def print_coverage():
-    total_branches = len(branch_coverage)
-    taken_branches = sum(1 for taken in branch_coverage.values() if taken)
-    coverage_percentage = (taken_branches / total_branches) * 100
+# def print_coverage():
+#     total_branches = len(branch_coverage)
+#     taken_branches = sum(1 for taken in branch_coverage.values() if taken)
+#     coverage_percentage = (taken_branches / total_branches) * 100
     
-    for branch, hit in branch_coverage.items():
-        print(f"{branch}: {'Taken' if hit else 'Not taken'}")
+#     for branch, hit in branch_coverage.items():
+#         print(f"{branch}: {'Taken' if hit else 'Not taken'}")
     
-    print(f"Total Coverage Percentage: {coverage_percentage:.2f}%")
+#     print(f"Total Coverage Percentage: {coverage_percentage:.2f}%")
 
 if __name__ == '__main__':
     try:
@@ -78,4 +78,4 @@ if __name__ == '__main__':
     user_input = raw_input('Enter numbers separated by a comma:\n').strip()
     unsorted = [int(item) for item in user_input.split(',')]
     print(merge_sort(unsorted))
-    print_coverage()
+    # print_coverage()
