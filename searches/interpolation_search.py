@@ -8,7 +8,6 @@ try:
 except NameError:
     raw_input = input  # Python 3
 
-
 def interpolation_search(sorted_collection, item):
     """Pure implementation of interpolation search algorithm in Python
     Be careful collection must be sorted, otherwise result will be
@@ -36,7 +35,6 @@ def interpolation_search(sorted_collection, item):
             else:
                 left = point + 1
     return None
-
 
 def interpolation_search_by_recursion(sorted_collection, item, left, right):
 
@@ -77,7 +75,6 @@ def __assert_sorted(collection):
     if collection != sorted(collection):
         raise ValueError('Collection must be sorted')
     return True
-
 
 if __name__ == '__main__':
     import sys
