@@ -18,10 +18,10 @@ except NameError:
     raw_input = input  # Python 3
 
 coverage = {
-    "binarySearchWhile": False,  # Entered the while loop
-    "binarySearchIf1": False,  # Current item is equal to the search item
-    "binarySearchElseIf": False,  # Search item is less than the current item
-    "binarySearchElse": False,  # Search item is greater than the current item
+    "binarySearchWhile": False,  
+    "binarySearchIf1": False, 
+    "binarySearchElseIf": False,
+    "binarySearchElse": False,
 }
 
 def binary_search(sorted_collection, item):
