@@ -104,7 +104,7 @@ For bucket sort, the coverage should be the same for all lists except for the em
 [Link to the commit with coverage measurement](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/25ec6ff795751ce0758ac8b4e893a93b36b5c091)
 <img width="662" alt="SCR-20240613-ppho" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/63929969/13030114-6b4d-416c-aff9-ea411f0ebf50">
 
-## Coverage improvement
+# Coverage improvement
 
 ## David Gilson
 
