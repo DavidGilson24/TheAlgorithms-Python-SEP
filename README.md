@@ -244,4 +244,10 @@ We can see here the same things happening as with bubble_sort. The overall cover
 - Own 2 function coverage instrumentation
 - Test files for chosen functions
 
+### Patrick Darie:
+
+- Wrote my individual part on the README
+- Own 2 function coverage instrumentation
+- Test files for chosen functions
+
 
