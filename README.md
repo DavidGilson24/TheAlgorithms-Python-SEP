@@ -228,6 +228,11 @@ We can see here the same things happening as with bubble_sort. The overall cover
 
 # Overall
 
+### Old Results
+
+<img width="505" alt="Screenshot_4" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/100478140/732de1f2-ce1e-4537-bdfe-c6127156bfe3">
+
+### New results
 
 
 ## Statement of individual contributions
