@@ -226,12 +226,9 @@ We can see here the same things happening as with bubble_sort. The overall cover
 
 <img width="978" alt="coverage html" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/63929969/99a2a3cc-c0c6-4f1f-a2ff-bf3abb3e3b27">
 
-### Overall
+# Overall
 
-<Provide a screenshot of the old coverage results by running an existing tool (the same as you already showed above)>
 
-<Provide a screenshot of the new coverage results by running the existing tool using all test modifications made by the group>
--->
 
 ## Statement of individual contributions
 
