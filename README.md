@@ -238,20 +238,10 @@ We can see here the same things happening as with bubble_sort. The overall cover
 
 ## Statement of individual contributions
 
+### David Gilson:
 
-Install Instructions
---------------------
-
-Pygame-menu can be installed via pip. Simply run:
-
-
-    $> pip install pygame-menu -U
-
-To build the documentation from a Git repository:
+- Made README until coverage html + individual parts
+- Own 2 function coverage instrumentation
+- Test files for chosen functions
 
 
-    $> clone https://github.com/ppizarror/pygame-menu
-    $> cd pygame-menu
-    $> pip install -e ."[docs]"
-    $> cd docs
-    $> make html
