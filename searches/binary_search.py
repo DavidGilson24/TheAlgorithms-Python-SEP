@@ -17,12 +17,12 @@ try:
 except NameError:
     raw_input = input  # Python 3
 
-coverage = {
-    "binarySearchWhile": False,  
-    "binarySearchIf1": False, 
-    "binarySearchElseIf": False,
-    "binarySearchElse": False,
-}
+# coverage = {
+#     "binarySearchWhile": False,  
+#     "binarySearchIf1": False, 
+#     "binarySearchElseIf": False,
+#     "binarySearchElse": False,
+# }
 
 def binary_search(sorted_collection, item):
     """Pure implementation of binary search algorithm in Python
@@ -51,18 +51,18 @@ def binary_search(sorted_collection, item):
     right = len(sorted_collection) - 1
 
     while left <= right:
-        coverage["binarySearchWhile"] = True
+        # coverage["binarySearchWhile"] = True
         midpoint = (left + right) // 2
         current_item = sorted_collection[midpoint]
         if current_item == item:
-            coverage["binarySearchIf1"] = True
+            # coverage["binarySearchIf1"] = True
             return midpoint
         else:
             if item < current_item:
-                coverage["binarySearchElseIf"] = True
+                # coverage["binarySearchElseIf"] = True
                 right = midpoint - 1
             else:
-                coverage["binarySearchElse"] = True
+                # coverage["binarySearchElse"] = True
                 left = midpoint + 1
     return None
 
@@ -152,9 +152,9 @@ def __assert_sorted(collection):
         raise ValueError('Collection must be sorted')
     return True
 
-def printCoverage():
-    for branch, hit in coverage.items():
-        print(f"{branch} was {'hit' if hit else 'not hit'}")
+# def printCoverage():
+#     for branch, hit in coverage.items():
+#         print(f"{branch} was {'hit' if hit else 'not hit'}")
 
 if __name__ == '__main__':
     import sys
@@ -173,4 +173,4 @@ if __name__ == '__main__':
     else:
         print('Not found')
 
-    printCoverage()
+    # printCoverage()
