@@ -54,12 +54,12 @@ How to:
 
 ### depth_of_tree:
 
-[Link to commit for coverage instrumentation](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/240092b8891d198672c52f480112a9585ed9d539)
+[Link to commit for coverage instrumentation](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/1dddc7a05b52fffcfd7d42214c472636acc4ae78#diff-70d4ca69a6fefc96d43feaec9b654b4fba441d9371afa02e6ee485e87354ccb6)
 <img width="212" alt="Screenshot 2024-06-12 161958" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/100478140/727555bb-f4b8-4ec2-a297-efb0a3a27ac5">
 
 ### is_full_binary_tree:
 
-[Link to commit for coverage instrumentation](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/240092b8891d198672c52f480112a9585ed9d539)
+[Link to commit for coverage instrumentation](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/1dddc7a05b52fffcfd7d42214c472636acc4ae78#diff-70d4ca69a6fefc96d43feaec9b654b4fba441d9371afa02e6ee485e87354ccb6)
 <img width="212" alt="Screenshot 2024-06-12 161958" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/100478140/727555bb-f4b8-4ec2-a297-efb0a3a27ac5">)
 
 ## Melisa Damian
@@ -110,7 +110,7 @@ For bucket sort, the coverage should be the same for all lists except for the em
 
 ### test_tree_depth.py:
 
-[Link to a commit the new test tree depth tests](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/5b66c6d74806727dd03a2c02ecab1f7ce34542ed#diff-719efa461e1601f23bd2d6082e80548bef79e2b6e54f709f36f704c4ab3ca06a)
+[Link to a commit the new test tree depth tests](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/1dddc7a05b52fffcfd7d42214c472636acc4ae78#diff-719efa461e1601f23bd2d6082e80548bef79e2b6e54f709f36f704c4ab3ca06a)
 
 #### Before adding new tests
 
@@ -124,7 +124,7 @@ The coverage goes straight to 96% as it had no previous tests covering it. So by
 
 ### test_full_binary:
 
-[Link to a commit the new test tree depth tests](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/5b66c6d74806727dd03a2c02ecab1f7ce34542ed#diff-61905f78e6f4c80d20903383f6e052ce4cc481462c99b605d278a1334276a8b1)
+[Link to a commit the new test tree depth tests](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/commit/1dddc7a05b52fffcfd7d42214c472636acc4ae78#diff-61905f78e6f4c80d20903383f6e052ce4cc481462c99b605d278a1334276a8b1)
 
 #### Before adding new tests
 
