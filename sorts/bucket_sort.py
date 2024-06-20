@@ -32,7 +32,7 @@ DEFAULT_BUCKET_SIZE = 5
 
 def bucketSort(myList, bucketSize=DEFAULT_BUCKET_SIZE):
     if(len(myList) == 0):
-        /coverage["bucketSort1"] = True
+        # coverage["bucketSort1"] = True
         print('You don\'t have any elements in array!')
 
     minValue = myList[0]
