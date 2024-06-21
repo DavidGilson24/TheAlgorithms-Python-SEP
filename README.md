@@ -234,23 +234,20 @@ We can see here the same things happening as with bubble_sort. The overall cover
 
 ### New results
 
+<img width="982" alt="Screenshot 2024-06-20 150811" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/100478140/37543454-d236-4abb-8540-8a51e24b28bc">
 
 ## Statement of individual contributions
 
+### David Gilson:
 
-Install Instructions
---------------------
+- Made README until coverage html + individual parts
+- Own 2 function coverage instrumentation
+- Test files for chosen functions
 
-Pygame-menu can be installed via pip. Simply run:
+### Patrick Darie:
+
+- Wrote my individual part on the README
+- Own 2 function coverage instrumentation
+- Test files for chosen functions
 
 
-    $> pip install pygame-menu -U
-
-To build the documentation from a Git repository:
-
-
-    $> clone https://github.com/ppizarror/pygame-menu
-    $> cd pygame-menu
-    $> pip install -e ."[docs]"
-    $> cd docs
-    $> make html
