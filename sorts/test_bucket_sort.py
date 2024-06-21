@@ -1,5 +1,5 @@
 import pytest
-from bucket_sort import bucketSort, printCoverage, coverage, DEFAULT_BUCKET_SIZE
+from bucket_sort import bucketSort,  DEFAULT_BUCKET_SIZE
 
 class TestBucketSort:
     def bucketSortEmptyListCheck(self, myList, bucketSize = DEFAULT_BUCKET_SIZE):
