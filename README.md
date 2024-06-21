@@ -234,13 +234,13 @@ We can see here the same things happening as with bubble_sort. The overall cover
 
 ### New results
 
-<img width="982" alt="Screenshot 2024-06-20 150811" src="https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/100478140/37543454-d236-4abb-8540-8a51e24b28bc">
+![Screenshot_1](https://github.com/DavidGilson24/TheAlgorithms-Python-SEP/assets/100478140/38b1c003-9cd3-4ed4-abea-8e929f68b23f)
 
 ## Statement of individual contributions
 
 ### David Gilson:
 
-- Made README until coverage html + individual parts
+- Made README until coverage html + individual parts + overall
 - Own 2 function coverage instrumentation
 - Test files for chosen functions
 
