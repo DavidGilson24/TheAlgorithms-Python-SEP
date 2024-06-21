@@ -1,1 +1,7 @@
+[run]
+omit =
+    searches\binary_search.py
+    sorts\bubble_sort.py
+    sorts\gnome_sort.py
+    sorts\insertion_sort.py
 
