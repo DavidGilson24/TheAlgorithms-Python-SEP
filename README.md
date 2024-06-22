@@ -253,6 +253,6 @@ We can see here the same things happening as with bubble_sort. The overall cover
 ### Melisa Damian
 - Wrote my own part of the README
 - Do 2 function coverage instrumentations
-  Test files for the two functions mentioned above
+- Test files for the two functions mentioned above
 
 
