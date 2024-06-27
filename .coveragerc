@@ -1,5 +1,11 @@
 [run]
+source = .
+
+[report]
 omit =
+    /usr/*
+    data_structures/*
+    digital_image_processing/*
     searches/tabu_search.py
     sorts/bubble_sort.py 
     sorts/bucket_sort.py  
