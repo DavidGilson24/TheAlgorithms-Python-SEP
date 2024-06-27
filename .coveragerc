@@ -1,7 +1,10 @@
 [run]
 omit =
-    searches\binary_search.py
-    sorts\bubble_sort.py
-    sorts\gnome_sort.py
-    sorts\insertion_sort.py
-
+    searches/tabu_search.py
+    sorts/bubble_sort.py 
+    sorts/bucket_sort.py  
+    sorts/merge_sort.py 
+    sorts/insertion_sort.py 
+    sorts/gnome_sort.py  
+    searches/jump_search.py  
+    searches/binary_search.py
