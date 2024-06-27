@@ -255,4 +255,7 @@ We can see here the same things happening as with bubble_sort. The overall cover
 - Do 2 function coverage instrumentations
 - Test files for the two functions mentioned above
 
-
+### Ashwin Iyer
+- Wrote my own part of the README
+- Chose 2 functions and instrumented them
+- Made test files for the two functions 
